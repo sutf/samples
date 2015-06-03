@@ -8,7 +8,7 @@
     <sch:rule context="body">
       <!-- Tests can be attached to any element, including assert/report -->      
       <sch:assert test=".//h1" sutf:fail="test001.xml" sutf:pass="test003.xml">There has to be at least one H1 heading in the document.</sch:assert>
-      <sch:report test=".//marquee" sutf:fail="test001.xml test002.xml">Marquee element is not allowed.</sch:report>
+      <sch:report test=".//marquee" sutf:fail="test001.xml test002.xml" sutf:pass="test003.xml">Marquee element is not allowed.</sch:report>
     </sch:rule>
     
   </sch:pattern>
