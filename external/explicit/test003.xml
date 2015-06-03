@@ -1,0 +1,9 @@
+<html>
+  <head>
+    <title>Test file</title>
+  </head>
+  <body>
+    <h1>Hi there!</h1>
+    <div>I shouldn't be there</div>
+  </body>
+</html>
