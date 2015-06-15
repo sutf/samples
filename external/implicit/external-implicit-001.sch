@@ -6,6 +6,10 @@
        Documents in fail folder must fail at least once or exact number of times as it's specified inside the filename using (Nx) notation
        Test documents are assigned to pattern/rule/assert/report based on their ID - it must correspond to the start of filename of test document.
        ID is separated by - character from the rest of filename.
+       
+       Please note that this document doesn't contain any SUTF markup.
+       It's responsibility of user to invoke SUTF runner with approapriate parameters
+       in order to get checking done. 
        -->
   <sch:pattern id="HTMLTests">
     <sch:title>Test pattern</sch:title>
